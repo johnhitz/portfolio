@@ -4,10 +4,12 @@ import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import { Contact } from './components/Contact'
 import Error from './components/Error'
+import { Layout } from './components/Layout'
 
 function App() {
   return (
     <React.Fragment>
+      <Layout>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -16,6 +18,7 @@ function App() {
           <Route component={Error} />
         </Switch>
       </Router>
+      </Layout>
     </React.Fragment>
   );
 }
