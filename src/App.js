@@ -5,10 +5,12 @@ import Portfolio from './components/Portfolio'
 import { Contact } from './components/Contact'
 import Error from './components/Error'
 import { Layout } from './components/Layout'
+import { NavigationBar } from './components/NavigationBar'
 
 function App() {
   return (
     <React.Fragment>
+      <NavigationBar />
       <Layout>
       <Router>
         <Switch>
