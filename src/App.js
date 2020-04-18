@@ -6,12 +6,14 @@ import { Contact } from './components/Contact'
 import Error from './components/Error'
 import { Layout } from './components/Layout'
 import { NavigationBar } from './components/NavigationBar'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
     <React.Fragment>
-      <NavigationBar />
+
       <Layout>
+      <NavigationBar />
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -20,6 +22,7 @@ function App() {
           <Route component={Error} />
         </Switch>
       </Router>
+      <Footer />
       </Layout>
     </React.Fragment>
   );

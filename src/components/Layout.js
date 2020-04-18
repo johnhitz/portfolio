@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container' //Only imports Container as op
 
 export const Layout = (props) => {
   return(
-    <Container>
+    <Container fluid >
       {props.children}
     </Container>
   )
