@@ -1,10 +1,10 @@
-.jumbotron {
+/* .jumbotron {
   background: 239 239 239;
-}
+} */
 
-.jumbo-img {
+/* .jumbo-img {
   heigth: 1000px;
-}
+} */
 
 .about-me {
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 h1 {
-  padding: 0 70px;
+  padding: 0 2em;
 }
 
 hr {
