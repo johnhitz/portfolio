@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Container, Row, Col } from 'react-bootstrap'
+// import { Container, Row, Col } from 'react-bootstrap'
 import linkedin from '../assets/linkedIn-logo.webp'
 import github from '../assets/github.jpeg'
 
@@ -17,7 +17,6 @@ const Github = styled.div`
   background: url(${github}) no-repeat;
   background-size: cover;
 `
-
 
 const Styled = styled.div`
   width: 5em;

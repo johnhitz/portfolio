@@ -24,7 +24,7 @@ export const Contact = (props) => {
           <SocialLinks />
         </Col>
       </Row><Row>
-        <Col xs={5}><h1>Get in Touch</h1></Col>
+        <Col xs={5}><h1>Contact Me</h1></Col>
         <Col>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="ContactName">
