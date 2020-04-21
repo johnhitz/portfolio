@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { Container, Row, Col } from 'react-bootstrap'
 import linkedin from '../assets/linkedIn-logo.webp'
 import github from '../assets/github.jpeg'
 
