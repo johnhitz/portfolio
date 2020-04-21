@@ -20,7 +20,7 @@ const Headshot = styled.div`
 
 const Horizontal = styled.div`
   height: 1px;
-  background: red;
+  background: rgb(243, 243, 245);
 `
 
 const BottomRow = styled.div`
@@ -29,6 +29,10 @@ const BottomRow = styled.div`
   justify-content: space-between;
   align-items: center;
 
+`
+const Section = styled.div`
+  margin-top: 2em;
+  border-bottom: 5px solid rgb(82,86,89);
 `
 
 const Text = styled.div`
@@ -101,7 +105,14 @@ export default class extends React.Component {
             <Row>
               <Col>
                 <ResponsiveEmbed>
-                  
+                  <Section>
+                    <object
+                      data="/resume.pdf"
+                      type="application/pdf"
+                      width="100"
+                      height="600"
+                      alt="My Resume"/>
+                  </Section>
                 </ResponsiveEmbed>
               </Col>
             </Row>
