@@ -32,7 +32,6 @@ const BottomRow = styled.div`
 `
 const Section = styled.div`
   margin-top: 2em;
-  border-bottom: 5px solid rgb(82,86,89);
 `
 
 const Text = styled.div`
@@ -109,8 +108,8 @@ export default class extends React.Component {
                     <object
                       data="/resume.pdf"
                       type="application/pdf"
-                      width="100"
-                      height="700"
+                      width="750"
+                      height="1000"
                       alt="My Resume"/>
                   </Section>
                 </ResponsiveEmbed>
