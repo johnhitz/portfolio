@@ -1,12 +1,12 @@
 import React from 'react'
-import { Jumbotron as Jumbo, Container} from 'react-bootstrap'
+import { Jumbotron as Jumbo} from 'react-bootstrap'
 import styled from 'styled-components'
 import whodapetLandingPage from '../assets/whodapet-landing-page.png'
 
 const Styles = styled.div`
   .jumbotron {
     height: 350px;
-    width: 95%;
+    width: 100%;
     display: flex;
     judtify-content: flex-start;
     align-items: flex-end;
@@ -14,11 +14,6 @@ const Styles = styled.div`
     background-size: cover;
   }
 `
-const Div = styled.div`
-  display: flex;
-  align-items: flex-end;
-`
-
 const Intro = styled.div`
   height: 10em;
   width: 10em;
@@ -28,12 +23,6 @@ const Intro = styled.div`
   padding-right: .75em;
   color: rgb(32, 58, 76);
 `
-const Img = styled.img`
-  /* height: 700px;
-  margin: 100px; */
-`
-// <Img className="jumbo-img" src="../assets/whodapet-landing-page.png" alt="Metric Project screenshot" />
-
 
 export const Jumbotron = () => {
   return(

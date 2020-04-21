@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const Styles = styled.div`
   .navbar {
     background-color: rgb(181, 183, 185);
+    margin-bottom: 2em;
   }
 
   .navbar-brand {

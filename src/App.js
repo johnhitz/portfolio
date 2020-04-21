@@ -13,12 +13,12 @@ function App() {
     <React.Fragment>
 
       <Layout>
-      <NavigationBar />
+      <NavigationBar className="navbar"/>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="portfolio" path="/portfolio" component={Portfolio} />
-          <Route path="portfolio" path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
           <Route component={Error} />
         </Switch>
       </Router>
