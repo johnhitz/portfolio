@@ -101,7 +101,7 @@ export default class extends React.Component {
             <Row>
               <Col>
                 <ResponsiveEmbed>
-                  <iframe title="resume" src="https://docs.google.com/document/d/14HUbSp-jYVE4SHcOgC5dIVbi8GV5w1GIcFpFTu5BxfQ/edit" />
+                  
                 </ResponsiveEmbed>
               </Col>
             </Row>
