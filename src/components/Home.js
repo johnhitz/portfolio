@@ -87,14 +87,14 @@ export default class extends React.Component {
                       onClick={this.hideResume}
                       className="btn btn-outline-dark"
                       >
-                      HIDE RESUEM</Button>
+                      HIDE RESUME</Button>
 
                   </>
                 : <Button
                     onClick={this.showResume}
                     className="btn btn-outline-dark"
                     >
-                    CHECK MY RESUEM</Button>
+                    CHECK MY RESUME</Button>
               }
             </Text>
           </Col>
@@ -110,7 +110,7 @@ export default class extends React.Component {
                       data="/resume.pdf"
                       type="application/pdf"
                       width="100"
-                      height="600"
+                      height="700"
                       alt="My Resume"/>
                   </Section>
                 </ResponsiveEmbed>
